@@ -1,0 +1,21 @@
+.card__image {
+  border-radius: 10px;
+  width: 264px;
+}
+.card__body-title {
+  color: #256eeb;
+  padding-top: 12px;
+}
+.card__body-price {
+  font-weight: 700;
+  padding-top: 5px;
+  font-size: 16px;
+}
+.card__body-address {
+  color: #c4c4c4;
+  padding-top: 10px;
+}
+.card__body-date {
+  color: #c4c4c4;
+  padding-top: 4px;
+}

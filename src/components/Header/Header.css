@@ -1,0 +1,17 @@
+.header {
+  padding-top: 34px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__right-menu {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+}
+.header__login:hover {
+  opacity: 0.6;
+}
