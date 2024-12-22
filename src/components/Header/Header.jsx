@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export const Header = () => {
   return (
     <header className="header container">
-      <a href="#!" className="header__logo logo">
+      <Link to="/" className="header__logo logo">
         <img
           src="/images/logo.svg"
           alt="Abito"
@@ -12,7 +13,7 @@ export const Header = () => {
           height="28"
           loading="lazy"
         />
-      </a>
+      </Link>
       <div className="header__right-menu">
         <a href="#!" className="header__login">
           Вход и регистрация
